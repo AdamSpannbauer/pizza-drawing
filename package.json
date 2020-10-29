@@ -1,0 +1,24 @@
+{
+  "name": "pizza-drawing",
+  "version": "1.0.0",
+  "description": "p5js evening game jam",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaysonRice/pizza-drawing.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaysonRice/pizza-drawing/issues"
+  },
+  "homepage": "https://github.com/JaysonRice/pizza-drawing#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
