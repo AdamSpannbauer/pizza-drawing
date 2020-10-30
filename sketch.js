@@ -21,6 +21,9 @@ const drawWavyCircle = (x, y, r, nPoints = 18, seed = 42) => {
     vertexY = sin(a) * radiusI;
 
     curveVertex(vertexX, vertexY);
+    if (a === 0) {
+      curveVertex(vertexX, vertexY);
+    }
   }
   endShape(CLOSE);
 };
